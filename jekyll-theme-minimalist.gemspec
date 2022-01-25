@@ -4,9 +4,9 @@ Gem::Specification.new do |s|
   s.name          = "jekyll-theme-minimalist"
   s.version       = "0.1.0"
   s.license       = "CC0-1.0"
-  s.authors       = ["Bodun Hu", "Steve Smith", "GitHub, Inc."]
-  s.email         = ["bodunhu@utexas.edu"]
-  s.homepage      = "https://github.com/BDHU/minimalist"
+  s.authors       = ["Isaac GC", "Bodun Hu", "Steve Smith", "GitHub, Inc."]
+  s.email         = [""]
+  s.homepage      = "https://github.com/Isaac-GC/minimalist"
   s.summary       = "Minimalist is a Jekyll theme inspired by Minimal"
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|

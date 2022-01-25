@@ -13,16 +13,16 @@ plugins:
 sidebar:
   - name: Google Scholar
     icon: fa-solid fa-user-graduate
-    link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
+    link: ""
   - name: GitHub
     icon: fa-brands fa-github
-    link: https://github.com/BDHU
+    link: https://github.com/Isaac-GC
   - name: Twitter
     icon: fa-brands fa-twitter
-    link: https://twitter.com/BodunHu
+    link: https://twitter.com
   - name: Blog
     icon: fa-solid fa-pen
-    link: https://www.bodunhu.com/blog/
+    link: https://isaacgc.us/blog/
   - name: Project Repository
     icon: fa-solid fa-box-archive
     link: https://github.com/BDHU/minimalist
