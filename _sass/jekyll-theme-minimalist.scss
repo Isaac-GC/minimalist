@@ -92,6 +92,48 @@ code, pre {
   color: var(--clr-code-text);
 }
 
+code {
+  font-size: 85%;
+}
+
+.highlight {
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  background-color: var(--code-bg);
+  border-radius: var(--border-radius);
+
+  pre {
+    margin-bottom: 0;
+  }
+
+  // Triple backticks (code fencing) doubles the .highlight elements
+  .highlight {
+    padding: 0;
+  }
+}
+
+.rouge-table {
+  margin-bottom: 0;
+  font-size: 100%;
+
+  &,
+  td,
+  th {
+    border: 0;
+  }
+
+  .gutter {
+    vertical-align: top;
+    user-select: none;
+    opacity: .25;
+  }
+}
+
+// Gist via GitHub Pages
+.gist .markdown-body {
+  padding: 15px !important;
+}
+
 pre {
   padding:8px 15px;
   background: var(--clr-code-bg);
