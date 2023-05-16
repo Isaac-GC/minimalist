@@ -96,6 +96,10 @@ code {
   font-size: 11px;
 }
 
+code .language-plaintext .highlighter-rouge {
+  color: var(--code-aaaaaa);
+}
+
 .highlight {
   padding: var(--spacer);
   margin-bottom: var(--spacer);
