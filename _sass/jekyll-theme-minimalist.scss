@@ -94,10 +94,9 @@ code, pre {
 
 code {
   font-size: 11px;
-}
-
-code .language-plaintext .highlighter-rouge {
-  color: var(--code-aaaaaa);
+  border-radius: 5px;
+  padding: 2px 5px;
+  background-color: #3b3b3b;
 }
 
 .highlight {
